@@ -1,14 +1,133 @@
-
-.card{
-    width: 341px;
-    height: 252px;
-    font-size: 20px;
-    color: #000000;
-    background-color: #C4C4C4;
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    font-weight: 500;
+.card {
+  width: 341px;
+  height: 252px;
+  font-size: 20px;
+  color: #000000;
+  background-color: #c4c4c4;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-weight: 500;
+}
+.donutChart {
+  height: 204px;
+  width: 229px;
+  font-size: 12px;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.chart-text {
+  fill: #000;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+
+.chart-number {
+  font-size: 0.6em;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+
+.chart-label {
+  font-size: 0.2em;
+  line-height: 1;
+  text-transform: uppercase;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(0.7em);
+}
+
+.chart-label2 {
+  font-size: 0.2em;
+  line-height: 1;
+  text-transform: uppercase;
+  text-anchor: middle;
+}
+
+figure {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+@media (min-width: 768px) {
+  figure {
+    flex-direction: row;
+  }
+}
+
+.figure-content,
+.figure-key {
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-self: center;
+}
+
+.figure-content svg {
+  height: auto;
+}
+
+.figure-key {
+  min-width: calc(8 / 12);
+}
+
+.figure-key [className*="shape-"] {
+  margin-right: 6px;
+}
+
+.figure-key-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.figure-key-list li {
+  margin: 0 0 8px;
+  padding: 0;
+}
+
+.shape-circle {
+  display: inline-block;
+  vertical-align: middle;
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.shape-light-blue {
+  background-color: #437cf8;
+}
+
+.shape-dark-blue {
+  background-color: #090cbd;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
