@@ -1,6 +1,6 @@
 # Athena
 
-Here is my interview submission for the Front End Developer role with Athena. I look forward to your feedback
+Here is a sample front end responsive card design. I look forward to your feedback
 
 
 
