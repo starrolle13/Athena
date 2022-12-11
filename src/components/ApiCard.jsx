@@ -3,7 +3,7 @@ import Graph from "./Graph";
 
 export default function ApiCard() {
   return (
-    <div>
+    <div className="apiCard">
       <Graph />
     </div>
   );

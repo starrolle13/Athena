@@ -4,17 +4,20 @@ export default function () {
   return (
     <figure className="donutChart">
       <figcaption className="figure-key">
+        <div className="key">
         <ul className="figure-key-list" aria-hidden="true" role="presentation">
           <li>
             <span className="shape-circle shape-light-blue"></span> Benjamin
-            claim in 70(4)
+            claim in 70
           </li>
           <li>
             <span className="shape-circle shape-dark-blue"></span> Jasmine claim
-            in 68 (2)
+            in 68
           </li>
         </ul>
+        </div>
       </figcaption>
+      <div className="donut">
       <svg
         width="100%"
         height="100%"
@@ -78,6 +81,7 @@ export default function () {
           </text>
         </g>
       </svg>
+      </div>
     </figure>
   );
 }
