@@ -1,22 +1,18 @@
 import "./App.css";
 import CardContainer from "./components/CardContainer";
 import { data } from "././data/nineCardData";
-import ApiCard from "./components/ApiCard";
 
 function App() {
   return (
     <div className="App">
-      <div className="socialSecurity">
-        <ApiCard />
-      </div>
       <div className="nineCards">
         {data.map((item, index) => {
           return (
             <CardContainer
               key={index}
+              content={item.content}
               title={item.title}
               subtitle={item.subtitle}
-              content={item.content}
             />
           );
         })}

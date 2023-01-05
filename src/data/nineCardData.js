@@ -7,5 +7,6 @@ export const data = [
     {title: "HEADER 6", subtitle: "SUBTITLE 6", content: "CONTENT 6"},
     {title: "HEADER 7", subtitle: "SUBTITLE 7", content: "CONTENT 7"},
     {title: "HEADER 8", subtitle: "SUBTITLE 8", content: "CONTENT 8"},
+    {title: "HEADER 10", subtitle: "SUBTITLE 10", content: "CONTENT 10"},
     {title: "HEADER 9", subtitle: "SUBTITLE 9", content: "CONTENT 9"}
   ]

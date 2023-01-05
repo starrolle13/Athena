@@ -16,7 +16,7 @@
   font-size: 12px;
 }
 
-* {
+/* * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -130,4 +130,4 @@ figure {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
+} */
